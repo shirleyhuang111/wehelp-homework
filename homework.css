@@ -19,7 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
     padding: 5px;
     border-bottom-style: dashed;
     border-width: 3px;
@@ -28,8 +27,8 @@
     }
     .pic img{
         border-radius:25px;
-        width:25%;
-        height:75%;
+        width: 400px;
+        height: 350px;
         padding: 10px;
         
     }
@@ -40,7 +39,6 @@
     }
 
 .mediel1{
-    margin: 0 auto;
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
@@ -63,4 +61,57 @@
     font-weight: normal;
     text-align: left;
     
+    }
+    @media (max-width:1250px){  
+        .left{
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            border-width: 2px;
+        }
+        .pic{
+            flex-wrap: wrap;
+        }
+        .pic img{
+            width:300px;
+            height: 280px;
+            padding: 20px;
+        }
+        .model2{
+            width: 80%;  
+            }
+        
+    }
+    @media(max-width:500px){
+        .left{
+            font-size: 18px;
+            font-weight: bold;
+            padding: 5px;
+            border-width: 2px;
+        }
+        .pic{
+            flex-wrap: wrap;
+        }
+        .pic img{
+            width:300px;
+            height: 280px;
+            padding: 10px;
+            
+        }
+        .mediel1{
+            padding: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .hover:hover{
+            background-color: rgb(243, 196, 169);
+            font-size: 18px;
+            
+            }
+        .model2{
+            width: 80%;  
+            font-size: 12px;
+            padding: 5px;
+            }
     }
