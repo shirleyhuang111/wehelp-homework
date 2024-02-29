@@ -100,18 +100,18 @@
         }
         .mediel1{
             padding: 5px;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
         }
         
         .hover:hover{
             background-color: rgb(243, 196, 169);
-            font-size: 20px;
+            font-size: 18px;
             
             }
         .model2{
             width: 80%;  
-            font-size: 16px;
+            font-size: 14px;
             padding: 5px;
             }
     }
